@@ -32,7 +32,7 @@ public:
     }
 
     int GetRandomLevel() const {
-        int level = 0;
+        int level = 1;
         while (std::rand() % 2) {
             level++;
         }
