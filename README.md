@@ -11,3 +11,10 @@ xmake build skiplist
 # or ./bin/skiplist 
 xmake run skiplist
 ```
+
+### 压力测试
+
+```bash
+chmod +x ./run_test.sh
+./run_test.sh
+```
